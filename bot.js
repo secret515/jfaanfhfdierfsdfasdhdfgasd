@@ -66,7 +66,7 @@ var adkar = [
     if(message.content.startsWith(-- + 'اذكار')) {
          var cat = new Discord.RichEmbed()
 .setImage(cats[Math.floor(Math.random() * cats.length)])
-message.channel.sendEmbed(cat);
+message.channel.sendEmbed(adkar);
     }
 });
 
