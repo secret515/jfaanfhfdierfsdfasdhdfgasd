@@ -41,7 +41,7 @@ const adkar = [
   var client= new Discord.RichEmbed()
   .setTitle("**اذكار**")
   .setThumbnail(message.author.avatarURL)
-	.setFooter(`© NanoBot ™.`, 'https://cdn.discordapp.com/attachments/399629969195663362/400616374315122689/efe997c90e29c8c84da009f6bbae77a7.jpg')
+	.setFooter(`© SecreT ™.`, 'https://2.bp.blogspot.com/-aB5g2oa1Zw4/UPxVMkvasfI/AAAAAAAAEnM/yfaLCefnZLc/s1600/4563w.jpg')
   .setColor('RANDOM')
   .setDescription(`${adkar[Math.floor(Math.random() * adkar.length)]}`)
 				 .setTimestamp()
