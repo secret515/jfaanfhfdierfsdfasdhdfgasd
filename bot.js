@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const adkar = [
-	"http://3.bp.blogspot.com/-5iWFtxjg4Es/VUaMu2yQaLI/AAAAAAAAALk/6ehAR3QAqlI/s1600/0e3f4c4a6cfa05.jpg",
 	'**اذكار  |  **اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ وَالْغِنَى. ',
 	'**اذكار  ‏|  **اللَّهُمَّ اغْفِرْ لِي ذَنْبِي كُلَّهُ، دِقَّهُ، وَجِلَّهُ، وَأَوَّلَهُ، وَآخِرَهُ، وَعَلَانِيَتَهُ، وَسِرَّهُ. ',
 	'**‏اذكار  |  **أستغفر الله ',
