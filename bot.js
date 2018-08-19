@@ -48,7 +48,7 @@ const adkar = [
   message.channel.sendEmbed(client);
   message.react("??")
   }
-  });
+
   
  
 var adkar = [
