@@ -49,9 +49,9 @@ const adkar = [
   message.react("??")
   }
 
-  
+    });
  
-var adkar = [
+const adkar = [
 "https://cdn.discordapp.com/attachments/443574047851413507/480740286629281792/image0.jpg",
 "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
 "https://www.petfinder.com/wp-content/uploads/2012/11/101438745-cat-conjunctivitis-causes.jpg",
@@ -63,7 +63,7 @@ var adkar = [
 ]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
-    if(message.content.startsWith(-- + 'اذكار')) {
+    if(message.content.startsWith('--اذكار')) {
          var cat = new Discord.RichEmbed()
 .setImage(cats[Math.floor(Math.random() * cats.length)])
 message.channel.sendEmbed(adkar);
